@@ -1,7 +1,10 @@
 {
   "id": "5e-nonsrd-content",
   "title": "5E NonSRD Content",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "url": "https://github.com/Hinrichsta/extra-content/",
+  "download": "https://github.com/Hinrichsta/extra-content/releases/latest/download/packs.zip",
+  "manifest": "https://github.com/Hinrichsta/extra-content/releases/latest/download/module.json",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -76,9 +79,9 @@
   ],
   "packs": [
     {
-      "name": "Armor",
+      "name": "armor",
       "label": "Armor",
-      "path": "packs/equipment/armor",
+      "path": "./packs/equipment/armor",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -88,9 +91,9 @@
       "flags": {}
     },
     {
-      "name": "Equipment",
+      "name": "equipment",
       "label": "Equipment",
-      "path": "packs/equipment/equipment",
+      "path": "./packs/equipment/equipment",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -100,9 +103,9 @@
       "flags": {}
     },
 	{
-      "name": "Weapons",
+      "name": "weapons",
       "label": "Weapons",
-      "path": "packs/equipment/weapons",
+      "path": "./packs/equipment/weapons",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -112,9 +115,9 @@
       "flags": {}
     },
 	{
-      "name": "Artificer",
+      "name": "artificer",
       "label": "Artificer",
-      "path": "packs/classes/artificer",
+      "path": "./packs/classes/artificer",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -124,9 +127,9 @@
       "flags": {}
     },
 	{
-      "name": "Barbarian",
+      "name": "barbarian",
       "label": "Barbarian",
-      "path": "packs/classes/barbarian",
+      "path": "./packs/classes/barbarian",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -136,9 +139,9 @@
       "flags": {}
     },
 	{
-      "name": "Bard",
+      "name": "bard",
       "label": "Bard",
-      "path": "packs/classes/bard",
+      "path": "./packs/classes/bard",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -148,9 +151,9 @@
       "flags": {}
     },
 	{
-      "name": "Blood Hunter",
+      "name": "blood-hunter",
       "label": "Blood Hunter",
-      "path": "packs/classes/blood-hunter",
+      "path": "./packs/classes/blood-hunter",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -160,9 +163,9 @@
       "flags": {}
     },
 	{
-      "name": "Cleric",
+      "name": "cleric",
       "label": "Cleric",
-      "path": "packs/classes/cleric",
+      "path": "./packs/classes/cleric",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -172,9 +175,9 @@
       "flags": {}
     },
 	{
-      "name": "Druid",
+      "name": "druid",
       "label": "Druid",
-      "path": "packs/classes/druid",
+      "path": "./packs/classes/druid",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -184,9 +187,9 @@
       "flags": {}
     },
 	{
-      "name": "Fighter",
+      "name": "fighter",
       "label": "Fighter",
-      "path": "packs/classes/fighter",
+      "path": "./packs/classes/fighter",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -196,9 +199,9 @@
       "flags": {}
     },
 	{
-      "name": "Monk",
+      "name": "monk",
       "label": "Monk",
-      "path": "packs/classes/monk",
+      "path": "./packs/classes/monk",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -208,9 +211,9 @@
       "flags": {}
     },
 	{
-      "name": "Paladin",
+      "name": "paladin",
       "label": "Paladin",
-      "path": "packs/classes/paladin",
+      "path": "./packs/classes/paladin",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -220,9 +223,9 @@
       "flags": {}
     },
 	{
-      "name": "Ranger",
+      "name": "ranger",
       "label": "Ranger",
-      "path": "packs/classes/ranger",
+      "path": "./packs/classes/ranger",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -232,9 +235,9 @@
       "flags": {}
     },
 	{
-      "name": "Rogue",
+      "name": "rogue",
       "label": "Rogue",
-      "path": "packs/classes/rogue",
+      "path": "./packs/classes/rogue",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -244,9 +247,9 @@
       "flags": {}
     },
 	{
-      "name": "Sorcerer",
+      "name": "sorcerer",
       "label": "Sorcerer",
-      "path": "packs/classes/sorcerer",
+      "path": "./packs/classes/sorcerer",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -256,9 +259,9 @@
       "flags": {}
     },
 	{
-      "name": "Warlock",
+      "name": "warlock",
       "label": "Warlock",
-      "path": "packs/classes/warlock",
+      "path": "./packs/classes/warlock",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -268,9 +271,9 @@
       "flags": {}
     },
 	{
-      "name": "Wizard",
+      "name": "wizard",
       "label": "Wizard",
-      "path": "packs/classes/wizard",
+      "path": "./packs/classes/wizard",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -280,9 +283,9 @@
       "flags": {}
     },
 	{
-      "name": "Common",
+      "name": "common",
       "label": "Common",
-      "path": "packs/magic-items/common",
+      "path": "./packs/magic-items/common",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -292,9 +295,9 @@
       "flags": {}
     },
 	{
-      "name": "Uncommon",
+      "name": "uncommon",
       "label": "Uncommon",
-      "path": "packs/magic-items/uncommon",
+      "path": "./packs/magic-items/uncommon",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -304,9 +307,9 @@
       "flags": {}
     },
 	{
-      "name": "Rare",
+      "name": "rare",
       "label": "Rare",
-      "path": "packs/magic-items/rare",
+      "path": "./packs/magic-items/rare",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -316,9 +319,9 @@
       "flags": {}
     },
 	{
-      "name": "Very Rare",
+      "name": "very-rare",
       "label": "Very Rare",
-      "path": "packs/magic-items/very rare",
+      "path": "./packs/magic-items/very-rare",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -328,9 +331,9 @@
       "flags": {}
     },
 	{
-      "name": "Legendary",
+      "name": "legendary",
       "label": "Legendary",
-      "path": "packs/magic-items/legendary",
+      "path": "./packs/magic-items/legendary",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -340,9 +343,9 @@
       "flags": {}
     },
 	{
-      "name": "Artifact",
+      "name": "artifact",
       "label": "Artifact",
-      "path": "packs/magic-items/artifact",
+      "path": "./packs/magic-items/artifact",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -352,9 +355,9 @@
       "flags": {}
     },
 	{
-      "name": "Cantrips",
+      "name": "cantrips",
       "label": "Cantrips",
-      "path": "packs/spells/cantrips",
+      "path": "./packs/spells/cantrips",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -364,9 +367,9 @@
       "flags": {}
     },
 	{
-      "name": "1st Level Spells",
+      "name": "1st-level-spells",
       "label": "1st Level Spells",
-      "path": "packs/spells/1st-level-spells",
+      "path": "./packs/spells/1st-level-spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -376,9 +379,9 @@
       "flags": {}
     },
 	{
-      "name": "2nd Level Spells",
+      "name": "2nd-level-spells",
       "label": "2nd Level Spells",
-      "path": "packs/spells/2nd-level-spells",
+      "path": "./packs/spells/2nd-level-spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -388,9 +391,9 @@
       "flags": {}
     },
 	{
-      "name": "3rd Level Spells",
+      "name": "3rd-level-spells",
       "label": "3rd Level Spells",
-      "path": "packs/spells/3rd-level-spells",
+      "path": "./packs/spells/3rd-level-spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -400,9 +403,9 @@
       "flags": {}
     },
 	{
-      "name": "4th Level Spells",
+      "name": "4th-level-spells",
       "label": "4th Level Spells",
-      "path": "packs/spells/4th-level-spells",
+      "path": "./packs/spells/4th-level-spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -412,9 +415,9 @@
       "flags": {}
     },
 	{
-      "name": "5th Level Spells",
+      "name": "5th-level-spells",
       "label": "5th Level Spells",
-      "path": "packs/spells/5th-level-spells",
+      "path": "./packs/spells/5th-level-spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -424,9 +427,9 @@
       "flags": {}
     },
 	{
-      "name": "6th Level Spells",
+      "name": "6th-level-spells",
       "label": "6th Level Spells",
-      "path": "packs/spells/6th-level-spells",
+      "path": "./packs/spells/6th-level-spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -436,9 +439,9 @@
       "flags": {}
     },
 	{
-      "name": "7th Level Spells",
+      "name": "7th-level-spells",
       "label": "7th Level Spells",
-      "path": "packs/spells/7th-level-spells",
+      "path": "./packs/spells/7th-level-spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -448,9 +451,9 @@
       "flags": {}
     },
 	{
-      "name": "8th Level Spells",
+      "name": "8th-level-spells",
       "label": "8th Level Spells",
-      "path": "packs/spells/8th-level-spells",
+      "path": "./packs/spells/8th-level-spells",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -460,9 +463,55 @@
       "flags": {}
     },
 	{
-      "name": "9th Level Spells",
+      "name": "9th-level-spells",
       "label": "9th Level Spells",
-      "path": "packs/spells/9th-level-spells",
+      "path": "./packs/spells/9th-level-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+		{
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "./packs/character-features/backgrounds",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+		{
+      "name": "feats",
+      "label": "Feats",
+      "path": "./packs/character-features/feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },	{
+      "name": "races",
+      "label": "Races",
+      "path": "./packs/character-features/races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },	{
+      "name": "racial-features",
+      "label": "Racial Features",
+      "path": "./packs/character-features/racial-features",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
