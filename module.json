@@ -1,13 +1,13 @@
 {
   "id": "5e-nonsrd-content",
   "title": "5E NonSRD Content",
-  "version": "1.2.0",
+  "version": "1.5.0",
   "url": "https://github.com/Hinrichsta/extra-content/",
   "download": "https://github.com/Hinrichsta/extra-content/releases/latest/download/packs.zip",
   "manifest": "https://github.com/Hinrichsta/extra-content/releases/latest/download/module.json",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   "relationships": {
     "systems": [
@@ -19,22 +19,7 @@
     ],
     "recommends": [
       {
-        "id": "dae",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "midi-qol",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
         "id": "itemacro",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "times-up",
         "type": "module",
         "compatibility": {}
       },
@@ -50,11 +35,6 @@
       },
       {
         "id": "ATL",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "tokenmagic",
         "type": "module",
         "compatibility": {}
       },
@@ -77,448 +57,559 @@
       "flags": {}
     }
   ],
-  "packs": [
-    {
-      "name": "armor",
-      "label": "Armor",
-      "path": "./packs/equipment/armor",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "equipment",
-      "label": "Equipment",
-      "path": "./packs/equipment/equipment",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "weapons",
-      "label": "Weapons",
-      "path": "./packs/equipment/weapons",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "artificer",
-      "label": "Artificer",
-      "path": "./packs/classes/artificer",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "barbarian",
-      "label": "Barbarian",
-      "path": "./packs/classes/barbarian",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "bard",
-      "label": "Bard",
-      "path": "./packs/classes/bard",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "blood-hunter",
-      "label": "Blood Hunter",
-      "path": "./packs/classes/blood-hunter",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "cleric",
-      "label": "Cleric",
-      "path": "./packs/classes/cleric",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "druid",
-      "label": "Druid",
-      "path": "./packs/classes/druid",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "fighter",
-      "label": "Fighter",
-      "path": "./packs/classes/fighter",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "monk",
-      "label": "Monk",
-      "path": "./packs/classes/monk",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "paladin",
-      "label": "Paladin",
-      "path": "./packs/classes/paladin",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "ranger",
-      "label": "Ranger",
-      "path": "./packs/classes/ranger",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "rogue",
-      "label": "Rogue",
-      "path": "./packs/classes/rogue",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "sorcerer",
-      "label": "Sorcerer",
-      "path": "./packs/classes/sorcerer",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "warlock",
-      "label": "Warlock",
-      "path": "./packs/classes/warlock",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "wizard",
-      "label": "Wizard",
-      "path": "./packs/classes/wizard",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "common",
-      "label": "Common",
-      "path": "./packs/magic-items/common",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "uncommon",
-      "label": "Uncommon",
-      "path": "./packs/magic-items/uncommon",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "rare",
-      "label": "Rare",
-      "path": "./packs/magic-items/rare",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "very-rare",
-      "label": "Very Rare",
-      "path": "./packs/magic-items/very-rare",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "legendary",
-      "label": "Legendary",
-      "path": "./packs/magic-items/legendary",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "artifact",
-      "label": "Artifact",
-      "path": "./packs/magic-items/artifact",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "cantrips",
-      "label": "Cantrips",
-      "path": "./packs/spells/cantrips",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "1st-level-spells",
-      "label": "1st Level Spells",
-      "path": "./packs/spells/1st-level-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "2nd-level-spells",
-      "label": "2nd Level Spells",
-      "path": "./packs/spells/2nd-level-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "3rd-level-spells",
-      "label": "3rd Level Spells",
-      "path": "./packs/spells/3rd-level-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "4th-level-spells",
-      "label": "4th Level Spells",
-      "path": "./packs/spells/4th-level-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "5th-level-spells",
-      "label": "5th Level Spells",
-      "path": "./packs/spells/5th-level-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "6th-level-spells",
-      "label": "6th Level Spells",
-      "path": "./packs/spells/6th-level-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "7th-level-spells",
-      "label": "7th Level Spells",
-      "path": "./packs/spells/7th-level-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "8th-level-spells",
-      "label": "8th Level Spells",
-      "path": "./packs/spells/8th-level-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-	{
-      "name": "9th-level-spells",
-      "label": "9th Level Spells",
-      "path": "./packs/spells/9th-level-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
+  "packs": [],
+  "packFolders": [
 		{
-      "name": "backgrounds",
-      "label": "Backgrounds",
-      "path": "./packs/character-features/backgrounds",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-		{
-      "name": "feats",
-      "label": "Feats",
-      "path": "./packs/character-features/feats",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },	{
-      "name": "races",
-      "label": "Races",
-      "path": "./packs/character-features/races",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },	{
-      "name": "racial-features",
-      "label": "Racial Features",
-      "path": "./packs/character-features/racial-features",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+			"name": "D&D Full Content",
+			"sorting": "a",
+			"color": "#1100ff",
+			"packs": [],
+			"folders": [
+				{
+					"name": "Equipment",
+					"sorting": "a",
+					"color": "#03b800",
+					"packs": [
+						{
+							"name": "armor",
+							"label": "Armor",
+							"path": "./packs/equipment/armor",
+							"type": "Item",
+							"ownership": {
+								"PLAYER": "OBSERVER",
+								"ASSISTANT": "OWNER"
+							},
+							"system": "dnd5e",
+							"flags": {}
+						},
+						{
+							"name": "equipment",
+							"label": "Equipment",
+							"path": "./packs/equipment/equipment",
+							"type": "Item",
+							"ownership": {
+								"PLAYER": "OBSERVER",
+								"ASSISTANT": "OWNER"
+							},
+							"system": "dnd5e",
+							"flags": {}
+						},
+						{
+							"name": "weapons",
+							"label": "Weapons",
+							"path": "./packs/equipment/weapons",
+							"type": "Item",
+							"ownership": {
+								"PLAYER": "OBSERVER",
+								"ASSISTANT": "OWNER"
+							},
+							"system": "dnd5e",
+							"flags": {}
+						}
+					],
+					"folders": [
+						{
+							"name": "Magic Items",
+							"sorting": "m",
+							"color": "#7b00bd",
+							"packs": [
+								{
+									"name": "common",
+									"label": "Common",
+									"path": "./packs/magic-items/common",
+									"type": "Item",
+									"ownership": {
+										"PLAYER": "OBSERVER",
+										"ASSISTANT": "OWNER"
+									},
+									"system": "dnd5e",
+									"flags": {}
+								},
+								{
+									"name": "uncommon",
+									"label": "Uncommon",
+									"path": "./packs/magic-items/uncommon",
+									"type": "Item",
+									"ownership": {
+										"PLAYER": "OBSERVER",
+										"ASSISTANT": "OWNER"
+									},
+									"system": "dnd5e",
+									"flags": {}
+								},
+								{
+									"name": "rare",
+									"label": "Rare",
+									"path": "./packs/magic-items/rare",
+									"type": "Item",
+									"ownership": {
+										"PLAYER": "OBSERVER",
+										"ASSISTANT": "OWNER"
+									},
+									"system": "dnd5e",
+									"flags": {}
+								},
+								{
+									"name": "very-rare",
+									"label": "Very Rare",
+									"path": "./packs/magic-items/very-rare",
+									"type": "Item",
+									"ownership": {
+										"PLAYER": "OBSERVER",
+										"ASSISTANT": "OWNER"
+									},
+									"system": "dnd5e",
+									"flags": {}
+								},
+								{
+									"name": "legendary",
+									"label": "Legendary",
+									"path": "./packs/magic-items/legendary",
+									"type": "Item",
+									"ownership": {
+										"PLAYER": "OBSERVER",
+										"ASSISTANT": "OWNER"
+									},
+									"system": "dnd5e",
+									"flags": {}
+								},
+								{
+									"name": "artifact",
+									"label": "Artifact",
+									"path": "./packs/magic-items/artifact",
+									"type": "Item",
+									"ownership": {
+										"PLAYER": "OBSERVER",
+										"ASSISTANT": "OWNER"
+									},
+									"system": "dnd5e",
+									"flags": {}
+								}
+							]
+						}
+					]
+				},
+        {
+          "name": "Monsters",
+					"sorting": "a",
+					"color": "#e60000",
+					"packs": [
+            {
+              "name": "player summons",
+              "label": "Player Summons",
+              "path": "./packs/monsters/player-summons",
+              "type": "Actor",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+            {
+              "name": "undead",
+              "label": "Undead",
+              "path": "./packs/monsters/undead",
+              "type": "Actor",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            }
+          ]
+        },
+        {
+          "name": "Player Options",
+					"sorting": "a",
+					"color": "#e68600",
+					"packs": [
+            {
+              "name": "backgrounds",
+              "label": "Backgrounds",
+              "path": "./packs/character-features/backgrounds",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+            {
+              "name": "feats",
+              "label": "Feats",
+              "path": "./packs/character-features/feats",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },	{
+              "name": "races",
+              "label": "Races",
+              "path": "./packs/character-features/races",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },	{
+              "name": "racial-features",
+              "label": "Racial Features",
+              "path": "./packs/character-features/racial-features",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            }
+          ],
+					"folders": [
+            {
+              "name": "Classes",
+              "sorting": "a",
+              "color": "#d737a5",
+              "packs": [
+                {
+                  "name": "artificer",
+                  "label": "Artificer",
+                  "path": "./packs/classes/artificer",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "barbarian",
+                  "label": "Barbarian",
+                  "path": "./packs/classes/barbarian",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "bard",
+                  "label": "Bard",
+                  "path": "./packs/classes/bard",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "blood-hunter",
+                  "label": "Blood Hunter",
+                  "path": "./packs/classes/blood-hunter",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "cleric",
+                  "label": "Cleric",
+                  "path": "./packs/classes/cleric",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "druid",
+                  "label": "Druid",
+                  "path": "./packs/classes/druid",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "fighter",
+                  "label": "Fighter",
+                  "path": "./packs/classes/fighter",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "monk",
+                  "label": "Monk",
+                  "path": "./packs/classes/monk",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "paladin",
+                  "label": "Paladin",
+                  "path": "./packs/classes/paladin",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "ranger",
+                  "label": "Ranger",
+                  "path": "./packs/classes/ranger",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "rogue",
+                  "label": "Rogue",
+                  "path": "./packs/classes/rogue",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "sorcerer",
+                  "label": "Sorcerer",
+                  "path": "./packs/classes/sorcerer",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "warlock",
+                  "label": "Warlock",
+                  "path": "./packs/classes/warlock",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                },
+              {
+                  "name": "wizard",
+                  "label": "Wizard",
+                  "path": "./packs/classes/wizard",
+                  "type": "Item",
+                  "ownership": {
+                    "PLAYER": "OBSERVER",
+                    "ASSISTANT": "OWNER"
+                  },
+                  "system": "dnd5e",
+                  "flags": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spells",
+					"sorting": "am",
+					"color": "#9900d1",
+					"packs":[
+            {
+              "name": "cantrips",
+              "label": "Cantrips",
+              "path": "./packs/spells/cantrips",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+          {
+              "name": "1st-level-spells",
+              "label": "1st Level Spells",
+              "path": "./packs/spells/1st-level-spells",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+          {
+              "name": "2nd-level-spells",
+              "label": "2nd Level Spells",
+              "path": "./packs/spells/2nd-level-spells",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+          {
+              "name": "3rd-level-spells",
+              "label": "3rd Level Spells",
+              "path": "./packs/spells/3rd-level-spells",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+          {
+              "name": "4th-level-spells",
+              "label": "4th Level Spells",
+              "path": "./packs/spells/4th-level-spells",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+          {
+              "name": "5th-level-spells",
+              "label": "5th Level Spells",
+              "path": "./packs/spells/5th-level-spells",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+          {
+              "name": "6th-level-spells",
+              "label": "6th Level Spells",
+              "path": "./packs/spells/6th-level-spells",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+          {
+              "name": "7th-level-spells",
+              "label": "7th Level Spells",
+              "path": "./packs/spells/7th-level-spells",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+          {
+              "name": "8th-level-spells",
+              "label": "8th Level Spells",
+              "path": "./packs/spells/8th-level-spells",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            },
+          {
+              "name": "9th-level-spells",
+              "label": "9th Level Spells",
+              "path": "./packs/spells/9th-level-spells",
+              "type": "Item",
+              "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+              },
+              "system": "dnd5e",
+              "flags": {}
+            }
+          ]
+        }
+			]
+		},
+    {
+      "name": "Revised Martial Equipment",
+			"sorting": "a",
+			"color": "#00a803",
+			"packs": [
+        {
+          "name": "revised-martial-equipment",
+          "label": "Revised Martial Equipment",
+          "path": "./packs/revised-martial-equipment/revised-martial-equipment",
+          "type": "Item",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "system": "dnd5e",
+          "flags": {}
+        },
+        {
+          "name": "rules-rme",
+          "label": "Rules (RME)",
+          "path": "./packs/revised-martial-equipment/rules-rme",
+          "type": "Journal Entry",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "system": "dnd5e",
+          "flags": {}
+        }
+      ]
     }
-  ]
+		
+	]
 }
