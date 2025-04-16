@@ -452,7 +452,7 @@
         },
         {
           "name": "Spells",
-					"sorting": "am",
+					"sorting": "m",
 					"color": "#9900d1",
 					"packs":[
             {
