@@ -1,10 +1,7 @@
 {
   "id": "5e-nonsrd-content",
   "title": "5E NonSRD Content",
-  "version": "1.5.0",
-  "url": "https://github.com/Hinrichsta/extra-content/",
-  "download": "https://github.com/Hinrichsta/extra-content/releases/latest/download/packs.zip",
-  "manifest": "https://github.com/Hinrichsta/extra-content/releases/latest/download/module.json",
+  "version": "1.6.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -14,10 +11,7 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "compatibility": {
-          "minimum": "4.3.0",
-          "verified": "4.3.8"
-        }
+        "compatibility": {}
       }
     ],
     "recommends": [
@@ -53,18 +47,21 @@
       }
     ]
   },
-  "description": "Spells, Classes, and Features imported from D&D Beyond.  Utilize active effects modules to enhance their usage.",
+  "description": "Spells, Classes, and Features imported from DnD Beyond.  Utilize active effects modules to enhance their usage.",
   "authors": [
     {
-      "name": "Tyler Hinrichs",
+      "name": "Tyler A. Hinrichs",
       "flags": {}
     }
   ],
+  "url": "https://github.com/Hinrichsta/extra-content/",
+  "download": "https://github.com/Hinrichsta/extra-content/releases/latest/download/packs.zip",
+  "manifest": "https://github.com/Hinrichsta/extra-content/releases/latest/download/module.json",
   "packs": [
     {
       "name": "armor",
       "label": "Armor",
-      "path": "./packs/equipment/armor",
+      "path": "packs/equipment/armor",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -75,18 +72,18 @@
     {
       "name": "equipment",
       "label": "Equipment",
-      "path": "./packs/equipment/equipment",
+      "path": "packs/equipment/equipment",
       "type": "Item",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "dnd5e"
     },
     {
       "name": "weapons",
       "label": "Weapons",
-      "path": "./packs/equipment/weapons",
+      "path": "packs/equipment/weapons",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -97,7 +94,7 @@
     {
       "name": "common",
       "label": "Common",
-      "path": "./packs/magic-items/common",
+      "path": "packs/magic-items/common",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -108,7 +105,7 @@
     {
       "name": "uncommon",
       "label": "Uncommon",
-      "path": "./packs/magic-items/uncommon",
+      "path": "packs/magic-items/uncommon",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -119,7 +116,7 @@
     {
       "name": "rare",
       "label": "Rare",
-      "path": "./packs/magic-items/rare",
+      "path": "packs/magic-items/rare",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -130,7 +127,7 @@
     {
       "name": "very-rare",
       "label": "Very Rare",
-      "path": "./packs/magic-items/very-rare",
+      "path": "packs/magic-items/very-rare",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -141,7 +138,7 @@
     {
       "name": "legendary",
       "label": "Legendary",
-      "path": "./packs/magic-items/legendary",
+      "path": "packs/magic-items/legendary",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -152,7 +149,7 @@
     {
       "name": "artifact",
       "label": "Artifact",
-      "path": "./packs/magic-items/artifact",
+      "path": "packs/magic-items/artifact",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -163,8 +160,8 @@
     {
       "name": "player-summons",
       "label": "Player Summons",
-      "path": "./packs/monsters/player-summons",
-      "type": "Actor",
+      "path": "packs/monsters/player-summons",
+      "type": "Item",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -174,8 +171,8 @@
     {
       "name": "undead",
       "label": "Undead",
-      "path": "./packs/monsters/undead",
-      "type": "Actor",
+      "path": "packs/monsters/undead",
+      "type": "Item",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -185,7 +182,7 @@
     {
       "name": "backgrounds",
       "label": "Backgrounds",
-      "path": "./packs/character-features/backgrounds",
+      "path": "packs/character-features/backgrounds",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -196,28 +193,29 @@
     {
       "name": "feats",
       "label": "Feats",
-      "path": "./packs/character-features/feats",
+      "path": "packs/character-features/feats",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
-    },	{
+    },
+    {
       "name": "races",
       "label": "Races",
-      "path": "./packs/character-features/races",
+      "path": "packs/character-features/races",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
-    },	
+    },
     {
       "name": "racial-features",
       "label": "Racial Features",
-      "path": "./packs/character-features/racial-features",
+      "path": "packs/character-features/racial-features",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -228,7 +226,7 @@
     {
       "name": "artificer",
       "label": "Artificer",
-      "path": "./packs/classes/artificer",
+      "path": "packs/classes/artificer",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -239,7 +237,7 @@
     {
       "name": "barbarian",
       "label": "Barbarian",
-      "path": "./packs/classes/barbarian",
+      "path": "packs/classes/barbarian",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -250,7 +248,7 @@
     {
       "name": "bard",
       "label": "Bard",
-      "path": "./packs/classes/bard",
+      "path": "packs/classes/bard",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -261,7 +259,7 @@
     {
       "name": "blood-hunter",
       "label": "Blood Hunter",
-      "path": "./packs/classes/blood-hunter",
+      "path": "packs/classes/blood-hunter",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -272,7 +270,7 @@
     {
       "name": "cleric",
       "label": "Cleric",
-      "path": "./packs/classes/cleric",
+      "path": "packs/classes/cleric",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -283,7 +281,7 @@
     {
       "name": "druid",
       "label": "Druid",
-      "path": "./packs/classes/druid",
+      "path": "packs/classes/druid",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -294,7 +292,7 @@
     {
       "name": "fighter",
       "label": "Fighter",
-      "path": "./packs/classes/fighter",
+      "path": "packs/classes/fighter",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -305,7 +303,7 @@
     {
       "name": "monk",
       "label": "Monk",
-      "path": "./packs/classes/monk",
+      "path": "packs/classes/monk",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -316,7 +314,7 @@
     {
       "name": "paladin",
       "label": "Paladin",
-      "path": "./packs/classes/paladin",
+      "path": "packs/classes/paladin",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -327,7 +325,7 @@
     {
       "name": "ranger",
       "label": "Ranger",
-      "path": "./packs/classes/ranger",
+      "path": "packs/classes/ranger",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -338,7 +336,7 @@
     {
       "name": "rogue",
       "label": "Rogue",
-      "path": "./packs/classes/rogue",
+      "path": "packs/classes/rogue",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -349,7 +347,7 @@
     {
       "name": "sorcerer",
       "label": "Sorcerer",
-      "path": "./packs/classes/sorcerer",
+      "path": "packs/classes/sorcerer",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -360,7 +358,7 @@
     {
       "name": "warlock",
       "label": "Warlock",
-      "path": "./packs/classes/warlock",
+      "path": "packs/classes/warlock",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -371,7 +369,7 @@
     {
       "name": "wizard",
       "label": "Wizard",
-      "path": "./packs/classes/wizard",
+      "path": "packs/classes/wizard",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -382,7 +380,7 @@
     {
       "name": "cantrips",
       "label": "Cantrips",
-      "path": "./packs/spells/cantrips",
+      "path": "packs/spells/cantrips",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -391,9 +389,9 @@
       }
     },
     {
-      "name": "1st-level-spells",
-      "label": "1st Level Spells",
-      "path": "./packs/spells/1st-level-spells",
+      "name": "1st",
+      "label": "1st",
+      "path": "packs/spells/1st",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -402,9 +400,9 @@
       }
     },
     {
-      "name": "2nd-level-spells",
-      "label": "2nd Level Spells",
-      "path": "./packs/spells/2nd-level-spells",
+      "name": "2nd",
+      "label": "2nd",
+      "path": "packs/spells/2nd",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -413,9 +411,9 @@
       }
     },
     {
-      "name": "3rd-level-spells",
-      "label": "3rd Level Spells",
-      "path": "./packs/spells/3rd-level-spells",
+      "name": "3rd",
+      "label": "3rd",
+      "path": "packs/spells/3rd",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -424,9 +422,9 @@
       }
     },
     {
-      "name": "4th-level-spells",
-      "label": "4th Level Spells",
-      "path": "./packs/spells/4th-level-spells",
+      "name": "4th",
+      "label": "4th",
+      "path": "packs/spells/4th",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -435,9 +433,9 @@
       }
     },
     {
-      "name": "5th-level-spells",
-      "label": "5th Level Spells",
-      "path": "./packs/spells/5th-level-spells",
+      "name": "5th",
+      "label": "5th",
+      "path": "packs/spells/5th",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -446,9 +444,9 @@
       }
     },
     {
-      "name": "6th-level-spells",
-      "label": "6th Level Spells",
-      "path": "./packs/spells/6th-level-spells",
+      "name": "6th",
+      "label": "6th",
+      "path": "packs/spells/6th",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -457,9 +455,9 @@
       }
     },
     {
-      "name": "7th-level-spells",
-      "label": "7th Level Spells",
-      "path": "./packs/spells/7th-level-spells",
+      "name": "7th",
+      "label": "7th",
+      "path": "packs/spells/7th",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -468,9 +466,9 @@
       }
     },
     {
-      "name": "8th-level-spells",
-      "label": "8th Level Spells",
-      "path": "./packs/spells/8th-level-spells",
+      "name": "8th",
+      "label": "8th",
+      "path": "packs/spells/8th",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -479,9 +477,9 @@
       }
     },
     {
-      "name": "9th-level-spells",
-      "label": "9th Level Spells",
-      "path": "./packs/spells/9th-level-spells",
+      "name": "9th",
+      "label": "9th",
+      "path": "packs/spells/9th",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -492,7 +490,7 @@
     {
       "name": "revised-martial-equipment",
       "label": "Revised Martial Equipment",
-      "path": "./packs/rme/revised-martial-equipment",
+      "path": "packs/rme/revised-martial-equipment",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -502,8 +500,8 @@
     },
     {
       "name": "rules-rme",
-      "label": "Rules (RME)",
-      "path": "./packs/rme/rules-rme",
+      "label": "rules-rme",
+      "path": "packs/rme/rules-rme",
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
@@ -513,13 +511,13 @@
     }
   ],
   "packFolders": [
-		{
-			"name": "D&D Full Content",
-			"sorting": "a",
-			"color": "#1100ff",
-			"packs": [],
-			"folders": [
-				{
+    {
+      "name": "D&D Full Content",
+      "sorting": "a",
+      "color": "#1100ff",
+      "packs": [],
+      "folders": [
+        {
 					"name": "Equipment",
 					"sorting": "a",
 					"color": "#03b800",
@@ -528,7 +526,7 @@
             "equipment",
             "weapons"
 					],
-					"folders": [
+          "folders": [
 						{
 							"name": "Magic Items",
 							"sorting": "m",
@@ -542,8 +540,8 @@
                 "artifact"
 							]
 						}
-					]
-				},
+          ]
+        },
         {
           "name": "Monsters",
 					"sorting": "a",
@@ -593,28 +591,27 @@
 					"color": "#9900d1",
 					"packs":[
             "cantrips",
-            "1st-level-spells",
-            "2nd-level-spells",
-            "3rd-level-spells",
-            "4th-level-spells",
-            "5th-level-spells",
-            "6th-level-spells",
-            "7th-level-spells",
-            "8th-level-spells",
-            "9th-level-spells"
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th"
           ]
         }
-			]
-		},
+      ]
+    },
     {
       "name": "Revised Martial Equipment",
-			"sorting": "a",
-			"color": "#00a803",
-			"packs": [
+      "sorting": "a",
+      "color": "#00a803",
+      "packs": [
         "revised-martial-equipment",
         "rules-rme"
       ]
     }
-		
-	]
+  ]
 }
