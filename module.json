@@ -1,7 +1,7 @@
 {
   "id": "5e-nonsrd-content",
   "title": "5E NonSRD Content",
-  "version": "1.6.2",
+  "version": "1.6.5",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -74,11 +74,11 @@
       "label": "Equipment",
       "path": "packs/equipment/equipment",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "weapons",
@@ -161,7 +161,7 @@
       "name": "player-summons",
       "label": "Player Summons",
       "path": "packs/monsters/player-summons",
-      "type": "Item",
+      "type": "Actor",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -172,7 +172,7 @@
       "name": "undead",
       "label": "Undead",
       "path": "packs/monsters/undead",
-      "type": "Item",
+      "type": "Actor",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -508,6 +508,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "fighting-styles",
+      "label": "Fighting Styles",
+      "path": "packs/fighting-styles",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -518,50 +529,53 @@
       "packs": [],
       "folders": [
         {
-					"name": "Equipment",
-					"sorting": "a",
-					"color": "#03b800",
-					"packs": [
-						"armor",
+          "name": "Equipment",
+          "sorting": "a",
+          "color": "#03b800",
+          "packs": [
+            "armor",
             "equipment",
             "weapons"
-					],
+          ],
           "folders": [
-						{
-							"name": "Magic Items",
-							"sorting": "m",
-							"color": "#7b00bd",
-							"packs": [
-								"common",
+            {
+              "name": "Magic Items",
+              "sorting": "m",
+              "color": "#7b00bd",
+              "packs": [
+                "common",
                 "uncommon",
                 "rare",
                 "very-rare",
                 "legendary",
                 "artifact"
-							]
-						}
+              ],
+              "folders": []
+            }
           ]
         },
         {
           "name": "Monsters",
-					"sorting": "a",
-					"color": "#e60000",
-					"packs": [
+          "sorting": "a",
+          "color": "#e60000",
+          "packs": [
             "player-summons",
             "undead"
-          ]
+          ],
+          "folders": []
         },
         {
           "name": "Player Options",
-					"sorting": "a",
-					"color": "#e68600",
-					"packs": [
+          "sorting": "a",
+          "color": "#e68600",
+          "packs": [
             "backgrounds",
             "feats",
             "races",
-            "racial-features"
+            "racial-features",
+            "fighting-styles"
           ],
-					"folders": [
+          "folders": [
             {
               "name": "Classes",
               "sorting": "a",
@@ -581,15 +595,16 @@
                 "sorcerer",
                 "warlock",
                 "wizard"
-              ]
+              ],
+              "folders": []
             }
           ]
         },
         {
           "name": "Spells",
-					"sorting": "m",
-					"color": "#9900d1",
-					"packs":[
+          "sorting": "m",
+          "color": "#9900d1",
+          "packs": [
             "cantrips",
             "1st",
             "2nd",
@@ -600,7 +615,8 @@
             "7th",
             "8th",
             "9th"
-          ]
+          ],
+          "folders": []
         }
       ]
     },
@@ -611,7 +627,8 @@
       "packs": [
         "revised-martial-equipment",
         "rules-rme"
-      ]
+      ],
+      "folders": []
     }
   ]
 }
