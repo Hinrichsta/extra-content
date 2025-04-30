@@ -1,8 +1,15 @@
-2025/04/18-20:09:28.692485 7c29f3602b38 Recovering log #41
-2025/04/18-20:09:28.700381 7c29f3602b38 Delete type=0 #41
-2025/04/18-20:09:28.701033 7c29f3602b38 Delete type=3 #39
-2025/04/18-20:10:10.800765 7c24f2167b38 Level-0 table #47: started
-2025/04/18-20:10:10.801174 7c24f2167b38 Level-0 table #47: 0 bytes OK
-2025/04/18-20:10:10.803640 7c24f2167b38 Delete type=0 #45
-2025/04/18-20:10:10.817333 7c24f2167b38 Manual compaction at level-0 from '!folders!5byRjhF2RFh9pLNv' @ 72057594037927935 : 1 .. '!items.effects!cYEQkICqxWgHEJbx.c3qvTxfo8eDnmqVh' @ 0 : 0; will stop at (end)
-2025/04/18-20:10:10.817424 7c24f2167b38 Manual compaction at level-1 from '!folders!5byRjhF2RFh9pLNv' @ 72057594037927935 : 1 .. '!items.effects!cYEQkICqxWgHEJbx.c3qvTxfo8eDnmqVh' @ 0 : 0; will stop at (end)
+2025/04/18-20:11:01.228405 7c29f3602b38 Recovering log #46
+2025/04/18-20:11:01.237406 7c29f3602b38 Delete type=0 #46
+2025/04/18-20:11:01.238154 7c29f3602b38 Delete type=3 #44
+2025/04/30-16:14:29.877774 7c24f2167b38 Level-0 table #51: started
+2025/04/30-16:14:29.915020 7c24f2167b38 Level-0 table #51: 717931 bytes OK
+2025/04/30-16:14:29.919508 7c24f2167b38 Delete type=0 #49
+2025/04/30-16:14:29.928369 7c24f2167b38 Manual compaction at level-0 from '!folders!5byRjhF2RFh9pLNv' @ 72057594037927935 : 1 .. '!items.effects!cYEQkICqxWgHEJbx.c3qvTxfo8eDnmqVh' @ 0 : 0; will stop at (end)
+2025/04/30-16:14:29.931557 7c24f2167b38 Manual compaction at level-1 from '!folders!5byRjhF2RFh9pLNv' @ 72057594037927935 : 1 .. '!items.effects!cYEQkICqxWgHEJbx.c3qvTxfo8eDnmqVh' @ 0 : 0; will stop at '!items!Vok2yk2yMv4WcaVh' @ 443 : 1
+2025/04/30-16:14:29.931582 7c24f2167b38 Compacting 1@1 + 1@2 files
+2025/04/30-16:14:29.953357 7c24f2167b38 Generated table #52@1: 56 keys, 179038 bytes
+2025/04/30-16:14:29.953387 7c24f2167b38 Compacted 1@1 + 1@2 files => 179038 bytes
+2025/04/30-16:14:29.954892 7c24f2167b38 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/30-16:14:29.956925 7c24f2167b38 Delete type=2 #43
+2025/04/30-16:14:29.958481 7c24f2167b38 Delete type=2 #51
+2025/04/30-16:14:29.963019 7c24f2167b38 Manual compaction at level-1 from '!items!Vok2yk2yMv4WcaVh' @ 443 : 1 .. '!items.effects!cYEQkICqxWgHEJbx.c3qvTxfo8eDnmqVh' @ 0 : 0; will stop at (end)
