@@ -1,8 +1,8 @@
-2025/05/08-20:26:32.800355 7c29f4a02b38 Recovering log #42
-2025/05/08-20:26:32.804421 7c29f4a02b38 Delete type=0 #42
-2025/05/08-20:26:32.804859 7c29f4a02b38 Delete type=3 #40
-2025/05/08-20:27:29.415277 7c24f2167b38 Level-0 table #47: started
-2025/05/08-20:27:29.415500 7c24f2167b38 Level-0 table #47: 0 bytes OK
-2025/05/08-20:27:29.416565 7c24f2167b38 Delete type=0 #45
-2025/05/08-20:27:29.421450 7c24f2167b38 Manual compaction at level-0 from '!actors!0ygjYVKjSxcYBHOa' @ 72057594037927935 : 1 .. '!actors.items!zoPWQI3vU5GVksz3.RDeCoZRniQBNq0rX' @ 0 : 0; will stop at (end)
-2025/05/08-20:27:29.421504 7c24f2167b38 Manual compaction at level-1 from '!actors!0ygjYVKjSxcYBHOa' @ 72057594037927935 : 1 .. '!actors.items!zoPWQI3vU5GVksz3.RDeCoZRniQBNq0rX' @ 0 : 0; will stop at (end)
+2025/06/13-18:00:08.593658 79bfd0376b38 Recovering log #52
+2025/06/13-18:00:08.598158 79bfd0376b38 Delete type=0 #52
+2025/06/13-18:00:08.598783 79bfd0376b38 Delete type=3 #50
+2025/06/13-18:00:58.902030 79bd4c08fb38 Level-0 table #57: started
+2025/06/13-18:00:58.902247 79bd4c08fb38 Level-0 table #57: 0 bytes OK
+2025/06/13-18:00:58.903309 79bd4c08fb38 Delete type=0 #55
+2025/06/13-18:00:58.909439 79bd4c08fb38 Manual compaction at level-0 from '!actors!0ygjYVKjSxcYBHOa' @ 72057594037927935 : 1 .. '!actors.items!zoPWQI3vU5GVksz3.RDeCoZRniQBNq0rX' @ 0 : 0; will stop at (end)
+2025/06/13-18:00:58.909496 79bd4c08fb38 Manual compaction at level-1 from '!actors!0ygjYVKjSxcYBHOa' @ 72057594037927935 : 1 .. '!actors.items!zoPWQI3vU5GVksz3.RDeCoZRniQBNq0rX' @ 0 : 0; will stop at (end)
